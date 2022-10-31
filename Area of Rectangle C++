@@ -14,7 +14,7 @@ void rectangle::area()
 {cout << length * breadth;
 }
 
-void rectangle::volume()
+void rectanglevolume()
 {cout << length * breadth * height;
 }
 
