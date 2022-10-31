@@ -3,7 +3,7 @@ using namespace std;
 
      class Shape
 { public:
-int length, breadth, height;
+int length, breadth, height, Rectangle;
 
 
 void area();
