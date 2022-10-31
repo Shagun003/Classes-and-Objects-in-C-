@@ -24,6 +24,7 @@ rectangle obj;
 obj.length=10;
 obj.breadth=8;
 obj.height=4;
+obj.recangle
 obj.area();
 cout << endl;
 obj.volume();
