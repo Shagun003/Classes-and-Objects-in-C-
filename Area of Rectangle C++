@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+     class rectangle
+{ public:
+int length, breadth, height;
+
+
+void area();
+void volume();
+
+};
+void rectangle::area()
+{cout << length * breadth;
+}
+
+void rectangle::volume()
+{cout << length * breadth * height;
+}
+
+int main ()
+{
+rectangle obj;
+obj.length=10;
+obj.breadth=8;
+obj.height=4;
+obj.area();
+cout << endl;
+obj.volume();
+
+
+     return 0;
+     }
